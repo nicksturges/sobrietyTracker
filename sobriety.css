@@ -1,6 +1,13 @@
+html{
+    height: 700px;
+}
 body{
+    /* display: flex; */
+    
     background-image: url('./images/photo-1511637971020-979604bc8b2d.jpeg');
+    background-repeat: no-repeat;
     background-size: cover; 
+    background-position: 70%
 }
 .container{
     display: flex;
@@ -11,7 +18,7 @@ body{
     /* outline: 1px solid red;   */
     height: 300px;
     width: 600px;
-    margin-top: 100px;
+    /* margin-top: 100px; */
     text-align: center;
     box-shadow: 5px 5px 5px 5px ;
 }
